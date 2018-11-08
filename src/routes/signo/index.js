@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const signoController = require("../../controllers/signoController")
+const signoController = require("../../controllers/signoController");
 
 router.get("/", (req, res, next) => {
   const { name, birthdate } = req.query;
